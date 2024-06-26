@@ -37,3 +37,7 @@ Bienvenido a appOnly_exercise, la aplicación definitiva para cambiar tu estilo 
 *FUERZA O RESISTENCIA:el entrenamiento de fuerza gana por goleada al de resistencia.
 
 
+
+***VALORACION***
+*El usuario puede dejar su respectiva opinion de la aplicacion.
+
