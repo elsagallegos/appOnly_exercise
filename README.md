@@ -36,8 +36,6 @@ Bienvenido a appOnly_exercise, la aplicación definitiva para cambiar tu estilo 
 *FREXIBILIDAD: Mejora el rendimiento físico y reduce el riesgo de sufrir lesiones. Reduce molestias articulares y mejora la postura. 
 *FUERZA O RESISTENCIA:el entrenamiento de fuerza gana por goleada al de resistencia.
 
-
-
-#***VALORACION***
+# ***VALORACION***
 *El usuario puede dejar su respectiva opinion de la aplicacion.
 
