@@ -38,6 +38,6 @@ Bienvenido a appOnly_exercise, la aplicación definitiva para cambiar tu estilo 
 
 
 
-***VALORACION***
+#***VALORACION***
 *El usuario puede dejar su respectiva opinion de la aplicacion.
 
