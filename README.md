@@ -38,8 +38,6 @@ Bienvenido a appOnly_exercise, la aplicación definitiva para cambiar tu estilo 
 *AREOBICOS: El ejercicio aeróbico fortalece el corazón y promueve niveles de colesterol saludables. 
 *FREXIBILIDAD: Mejora el rendimiento físico y reduce el riesgo de sufrir lesiones. Reduce molestias articulares y mejora la postura. 
 *FUERZA O RESISTENCIA:el entrenamiento de fuerza gana por goleada al de resistencia.
-# appOnly_exercise
-este proyecto esta dirgido a los usuarios que quieran distintas rutinas y dietas dependiendo las necesidades 
 
 ![image](https://github.com/elsagallegos/appOnly_exercise/assets/169268131/438d288e-703a-4e71-9c73-bf6554d8ae8a)
 
