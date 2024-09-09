@@ -83,7 +83,6 @@ A pesar del acceso a información y herramientas tecnológicas, las personas enf
 
 
 # ***REGISTRO DE PROBLEMA***
-
 create database appexcercices;
 
 use appexcercices;
@@ -103,7 +102,6 @@ valoracion_rutina VARCHAR(500) NOT NULL,
 PRIMARY KEY (idVALORACION));
 
 INSERT INTO VALORACION (idVALORACION, idusuario, id_ejercicios, comentarios, valoracion_rutina) 
-
 VALUES 
 
 (30, 'juanperez', 'e001', 'Excelente rutina, bien explicada.', 'La rutina es completa y cubre todos los aspectos importantes.'),
@@ -137,7 +135,6 @@ macronutrientes VARCHAR(45) NOT NULL,
 PRIMARY KEY (idALIMENTACION));
 
 INSERT INTO ALIMENTACION (idALIMENTACION, idusuario, fecha, comida, descripcion, calorias, macronutrientes) 
-
 VALUES 
 
 ('a001', 'juanperez', '2024-09-01', 'Desayuno', 'Avena con frutas', '350', '50g Carbs, 10g Protein'),
@@ -177,18 +174,17 @@ REFERENCES VALORACION (idVALORACION)
 ON UPDATE NO ACTION);
 
 INSERT INTO USUARIO (idUSUARIO, nombre, apellido, email, contraseña, VALORACION_idVALORACION, ALIMENTACION_idALIMENTACION) 
-
 VALUES 
 
-('I1', 'sol', 'Pérez', 'sol.perez@example.com', 'contraseña123', 101, '8001'),
+('I1', 'sol', 'Pérez', 'sol.perez@example.com', 'contraseña123', 30, 'a001'),
 
-('I2', 'luna', 'López', 'luna.lopez@example.com', 'contraseña456', 202, '9002'),
+('I2', 'luna', 'López', 'luna.lopez@example.com', 'contraseña456', 62, 'a002'),
 
-('I3', 'marco', 'García', 'marco.garcia@example.com', 'contraseña789', 303, '7003'),
+('I3', 'marco', 'García', 'marco.garcia@example.com', 'contraseña789', 93, 'a003'),
 
-('I4', 'hana', 'González', 'hana.gonzalez@example.com', 'contraseña012', 404, '5004'),
+('I4', 'hana', 'González', 'hana.gonzalez@example.com', 'contraseña012', 54, 'a004'),
 
-('I5', 'Luisa', 'Martínez', 'luisa.martinez@example.com', 'contraseña345', 505, '6005');
+('I5', 'Luisa', 'Martínez', 'luisa.martinez@example.com', 'contraseña345', 85, 'a005');
 
 SELECT * FROM USUARIO;
  
@@ -215,20 +211,20 @@ REFERENCES VALORACION (idVALORACION)
 ON UPDATE NO ACTION);
 
 INSERT INTO EJERCICIOS (idEJERCICIOS, nombre, descripcion, musculos_trabajados, dificultad, VALORACION_idVALORACION) 
-
 VALUES 
 
-('e001', 'Flexiones', 'Ejercicio de empuje que trabaja el pecho y tríceps.', 'Pecho, tríceps', 'Fácil', 101),
+('e001', 'Flexiones', 'Ejercicio de empuje que trabaja el pecho y tríceps.', 'Pecho, tríceps', 'Fácil', 30),
 
-('e002', 'Sentadillas', 'Ejercicio para fortalecer las piernas y glúteos.', 'Piernas, glúteos', 'Moderada', 202),
+('e002', 'Sentadillas', 'Ejercicio para fortalecer las piernas y glúteos.', 'Piernas, glúteos', 'Moderada', 62),
 
-('e003', 'Dominadas', 'Ejercicio para trabajar la espalda y bíceps.', 'Espalda, bíceps', 'Difícil', 303),
+('e003', 'Dominadas', 'Ejercicio para trabajar la espalda y bíceps.', 'Espalda, bíceps', 'Difícil', 93),
 
-('e004', 'Plancha', 'Ejercicio de estabilidad que trabaja el core.', 'Core', 'Fácil', 404),
+('e004', 'Plancha', 'Ejercicio de estabilidad que trabaja el core.', 'Core', 'Fácil', 54),
 
-('e005', 'Burpees', 'Ejercicio de cuerpo completo que mejora la resistencia.', 'Cuerpo completo', 'Alta', 505);
+('e005', 'Burpees', 'Ejercicio de cuerpo completo que mejora la resistencia.', 'Cuerpo completo', 'Alta', 85);
 
 SELECT * FROM EJERCICIOS;
+
  
 CREATE TABLE IF NOT EXISTS RUTINAS (
 
@@ -249,7 +245,6 @@ REFERENCES EJERCICIOS (idEJERCICIOS)
 ON UPDATE NO ACTION);
 
 INSERT INTO RUTINAS (idRUTINAS, nombre, descripcion, EJERCICIOS_idEJERCICIOS) 
-
 VALUES 
 
 ('r001', 'Rutina Básica', 'Rutina para principiantes con ejercicios básicos.', 'e001'),
@@ -291,18 +286,17 @@ REFERENCES USUARIO (idUSUARIO)
 ON UPDATE NO ACTION);
 
 INSERT INTO REGISTRO_PROGRESO (idREGISTRO_PROGRESO, idusuario, fecha, peso, mediciones, REGISTRO_PROGRESOcol, USUARIO_idUSUARIO, nivel) 
-
 VALUES 
 
-(1, 'u001', '2024-09-01', '70kg', '70cm cintura', 'Registro 1', 'u001', 'Principiante'),
+(1, 'u001', '2024-09-01', '70kg', '70cm cintura', 'Registro 1', 'I1', 'Principiante'),
 
-(2, 'u002', '2024-09-01', '65kg', '65cm cintura', 'Registro 2', 'u002', 'Intermedio'),
+(2, 'u002', '2024-09-01', '65kg', '65cm cintura', 'Registro 2', 'I2', 'Intermedio'),
 
-(3, 'u003', '2024-09-02', '80kg', '80cm cintura', 'Registro 3', 'u003', 'Avanzado'),
+(3, 'u003', '2024-09-02', '80kg', '80cm cintura', 'Registro 3', 'I3', 'Avanzado'),
 
-(4, 'u004', '2024-09-02', '75kg', '75cm cintura', 'Registro 4', 'u004', 'Principiante'),
+(4, 'u004', '2024-09-02', '75kg', '75cm cintura', 'Registro 4', 'I4', 'Principiante'),
 
-(5, 'u005', '2024-09-03', '85kg', '85cm cintura', 'Registro 5', 'u005', 'Intermedio');
+(5, 'u005', '2024-09-03', '85kg', '85cm cintura', 'Registro 5', 'I5', 'Intermedio');
 
 SELECT * FROM REGISTRO_PROGRESO;
 
@@ -327,33 +321,53 @@ FROM RUTINAS, EJERCICIOS
 WHERE RUTINAS.EJERCICIOS_idEJERCICIOS = EJERCICIOS.idEJERCICIOS 
 
 AND EJERCICIOS.musculos_trabajados = 'Core';
+
  
-/*Seleccionar las comidas del usuario 'luismartinez' registradas entre el 1 y el 3 de septiembre de 2024*/
+use appexcercices;
+
+/*Seleccionar los nombres y apellidos de los usuarios que han registrado su progreso con un peso mayor a 80kg*/
+
+SELECT nombre, apellido 
+
+FROM USUARIO, REGISTRO_PROGRESO 
+
+WHERE USUARIO.idUSUARIO = REGISTRO_PROGRESO.USUARIO_idUSUARIO 
+
+AND REGISTRO_PROGRESO.peso > '80kg';
+
+
+/*Mostrar las rutinas asociadas con ejercicios que tienen una dificultad clasificada como 'Alta'*/
+
+SELECT RUTINAS.nombre, RUTINAS.descripcion 
+
+FROM RUTINAS, EJERCICIOS 
+
+WHERE RUTINAS.EJERCICIOS_idEJERCICIOS = EJERCICIOS.idEJERCICIOS 
+
+AND EJERCICIOS.dificultad = 'Alta';
+
+ 
+/*Seleccionar las comidas registradas el día 2 de septiembre de 2024*/
+
 SELECT comida, descripcion, fecha 
 
 FROM ALIMENTACION 
 
-WHERE idusuario = 'luismartinez' 
+WHERE fecha = '2024-09-02';
 
-AND fecha >= '2024-09-01' 
-
-AND fecha <= '2024-09-03';
  
-/*Obtener los usuarios que han realizado una valoración con comentarios que contengan la palabra "buena"*/
+/*Obtener los nombres de los ejercicios que trabajan los músculos del 'core'*/
 
-SELECT DISTINCT USUARIO.idusuario, USUARIO.nombre, USUARIO.apellido 
+SELECT nombre, descripcion 
 
-FROM USUARIO, VALORACION 
+FROM EJERCICIOS 
 
-WHERE USUARIO.VALORACION_idVALORACION = VALORACION.idVALORACION 
-
-AND VALORACION.comentarios LIKE '%buena%';
+WHERE musculos_trabajados = 'Core';
  
-/*Mostrar los registros de progreso de los usuarios que tengan un peso de "70kg" o "65kg" y cuyas mediciones contengan la palabra "cintura"*/
-SELECT idusuario, fecha, peso, mediciones, nivel 
+/*Seleccionar los registros de progreso que corresponden a usuarios con nivel 'Avanzado'*/
+
+SELECT idusuario, fecha, peso, mediciones 
 
 FROM REGISTRO_PROGRESO 
 
-WHERE peso IN ('70kg', '65kg') 
-
-AND mediciones LIKE '%cintura%';
+WHERE nivel = 'Avanzado';
