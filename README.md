@@ -305,34 +305,55 @@ VALUES
 (5, 'u005', '2024-09-03', '85kg', '85cm cintura', 'Registro 5', 'u005', 'Intermedio');
 
 SELECT * FROM REGISTRO_PROGRESO;
+
  use appexcercices;
+ 
 /*Obtener los nombres y apellidos de los usuarios que han realizado valoraciones con comentarios que contienen la palabra "rutina"*/
+
 SELECT nombre, apellido 
+
 FROM USUARIO, VALORACION 
+
 WHERE USUARIO.VALORACION_idVALORACION = VALORACION.idVALORACION 
+
 AND VALORACION.comentarios LIKE '%rutina%';
  
 /*Mostrar todas las rutinas que incluyen ejercicios que trabajan los músculos del "core"*/
+
 SELECT nombre, descripcion 
+
 FROM RUTINAS, EJERCICIOS 
+
 WHERE RUTINAS.EJERCICIOS_idEJERCICIOS = EJERCICIOS.idEJERCICIOS 
+
 AND EJERCICIOS.musculos_trabajados = 'Core';
  
 /*Seleccionar las comidas del usuario 'luismartinez' registradas entre el 1 y el 3 de septiembre de 2024*/
 SELECT comida, descripcion, fecha 
+
 FROM ALIMENTACION 
+
 WHERE idusuario = 'luismartinez' 
+
 AND fecha >= '2024-09-01' 
+
 AND fecha <= '2024-09-03';
  
 /*Obtener los usuarios que han realizado una valoración con comentarios que contengan la palabra "buena"*/
+
 SELECT DISTINCT USUARIO.idusuario, USUARIO.nombre, USUARIO.apellido 
+
 FROM USUARIO, VALORACION 
+
 WHERE USUARIO.VALORACION_idVALORACION = VALORACION.idVALORACION 
+
 AND VALORACION.comentarios LIKE '%buena%';
  
 /*Mostrar los registros de progreso de los usuarios que tengan un peso de "70kg" o "65kg" y cuyas mediciones contengan la palabra "cintura"*/
 SELECT idusuario, fecha, peso, mediciones, nivel 
+
 FROM REGISTRO_PROGRESO 
+
 WHERE peso IN ('70kg', '65kg') 
+
 AND mediciones LIKE '%cintura%';
