@@ -74,9 +74,235 @@ A pesar del acceso a información y herramientas tecnológicas, las personas enf
 •	Incompatibilidad entre Dieta y Ejercicio: Las personas a menudo luchan por encontrar un equilibrio entre su régimen de ejercicios y su dieta, lo que puede afectar negativamente su progreso.
 •	Tiempo Limitado: Las agendas ocupadas dificultan la planificación y ejecución de rutinas de ejercicio y dietas saludables.
 •	Accesibilidad: No todos tienen acceso a entrenadores personales o nutricionistas, lo que limita la posibilidad de obtener orientación profesional.
+
  
 
 
 # ***VALORACION***
 *El usuario puede dejar su respectiva opinion de la aplicacion.
 
+
+# ***REGISTRO DE PROBLEMA***
+
+create database appexcercices;
+
+use appexcercices;
+
+CREATE TABLE IF NOT EXISTS VALORACION (
+
+idVALORACION INT NOT NULL,
+
+idusuario VARCHAR(100) NOT NULL,
+
+id_ejercicios VARCHAR(45) NOT NULL,
+
+comentarios VARCHAR(45) NOT NULL,
+
+valoracion_rutina VARCHAR(500) NOT NULL,
+
+PRIMARY KEY (idVALORACION));
+
+INSERT INTO VALORACION (idVALORACION, idusuario, id_ejercicios, comentarios, valoracion_rutina) 
+
+VALUES 
+
+(30, 'juanperez', 'e001', 'Excelente rutina, bien explicada.', 'La rutina es completa y cubre todos los aspectos importantes.'),
+
+(62, 'marialopez', 'e002', 'Un poco complicada, pero efectiva.', 'La rutina es desafiante y ayuda a mejorar rápidamente.'),
+
+(93, 'pedrogarcia', 'e003', 'Muy fácil de seguir.', 'La rutina es simple y adecuada para principiantes.'),
+
+(54, 'anagonzalez', 'e004', 'Me gusta la variedad de ejercicios.', 'La rutina mantiene el interés con diferentes tipos de ejercicios.'),
+
+(85, 'luismartinez', 'e005', 'Faltan algunas explicaciones.', 'La rutina es buena, pero necesita instrucciones más claras en ciertos ejercicios.');
+
+SELECT * FROM valoracion;
+ 
+CREATE TABLE IF NOT EXISTS ALIMENTACION (
+
+idALIMENTACION VARCHAR(100) NOT NULL,
+
+idusuario VARCHAR(100) NOT NULL,
+
+fecha DATE NOT NULL,
+
+comida VARCHAR(45) NOT NULL,
+
+descripcion VARCHAR(45) NOT NULL,
+
+calorias VARCHAR(45) NOT NULL,
+
+macronutrientes VARCHAR(45) NOT NULL,
+
+PRIMARY KEY (idALIMENTACION));
+
+INSERT INTO ALIMENTACION (idALIMENTACION, idusuario, fecha, comida, descripcion, calorias, macronutrientes) 
+
+VALUES 
+
+('a001', 'juanperez', '2024-09-01', 'Desayuno', 'Avena con frutas', '350', '50g Carbs, 10g Protein'),
+
+('a002', 'marialopez', '2024-09-01', 'Almuerzo', 'Ensalada de pollo', '450', '30g Carbs, 40g Protein'),
+
+('a003', 'pedrogarcia', '2024-09-02', 'Cena', 'Salmón a la parrilla', '500', '0g Carbs, 35g Protein'),
+
+('a004', 'anagonzalez', '2024-09-02', 'Snack', 'Yogur griego', '150', '20g Carbs, 10g Protein'),
+
+('a005', 'luismartinez', '2024-09-03', 'Desayuno', 'Smoothie verde', '300', '40g Carbs, 15g Protein');
+
+SELECT * FROM ALIMENTACION;
+
+CREATE TABLE IF NOT EXISTS USUARIO (
+
+idUSUARIO VARCHAR(100) NOT NULL,
+
+nombre VARCHAR(100) NOT NULL,
+
+apellido VARCHAR(100) NOT NULL,
+
+email VARCHAR(45) NOT NULL,
+
+contraseña VARCHAR(45) NOT NULL,
+
+VALORACION_idVALORACION INT NOT NULL,
+
+ALIMENTACION_idALIMENTACION VARCHAR(100) NOT NULL,
+
+PRIMARY KEY (idUSUARIO),
+
+FOREIGN KEY (VALORACION_idVALORACION)
+
+REFERENCES VALORACION (idVALORACION)
+
+ON UPDATE NO ACTION);
+
+INSERT INTO USUARIO (idUSUARIO, nombre, apellido, email, contraseña, VALORACION_idVALORACION, ALIMENTACION_idALIMENTACION) 
+
+VALUES 
+
+('I1', 'sol', 'Pérez', 'sol.perez@example.com', 'contraseña123', 101, '8001'),
+
+('I2', 'luna', 'López', 'luna.lopez@example.com', 'contraseña456', 202, '9002'),
+
+('I3', 'marco', 'García', 'marco.garcia@example.com', 'contraseña789', 303, '7003'),
+
+('I4', 'hana', 'González', 'hana.gonzalez@example.com', 'contraseña012', 404, '5004'),
+
+('I5', 'Luisa', 'Martínez', 'luisa.martinez@example.com', 'contraseña345', 505, '6005');
+
+SELECT * FROM USUARIO;
+ 
+CREATE TABLE IF NOT EXISTS EJERCICIOS (
+
+idEJERCICIOS VARCHAR(100) NOT NULL,
+
+nombre VARCHAR(45) NOT NULL,
+
+descripcion VARCHAR(500) NOT NULL,
+
+musculos_trabajados VARCHAR(45) NOT NULL,
+
+dificultad VARCHAR(45) NOT NULL,
+
+VALORACION_idVALORACION INT NOT NULL,
+
+PRIMARY KEY (idEJERCICIOS),
+
+FOREIGN KEY (VALORACION_idVALORACION)
+
+REFERENCES VALORACION (idVALORACION)
+
+ON UPDATE NO ACTION);
+
+INSERT INTO EJERCICIOS (idEJERCICIOS, nombre, descripcion, musculos_trabajados, dificultad, VALORACION_idVALORACION) 
+
+VALUES 
+
+('e001', 'Flexiones', 'Ejercicio de empuje que trabaja el pecho y tríceps.', 'Pecho, tríceps', 'Fácil', 101),
+
+('e002', 'Sentadillas', 'Ejercicio para fortalecer las piernas y glúteos.', 'Piernas, glúteos', 'Moderada', 202),
+
+('e003', 'Dominadas', 'Ejercicio para trabajar la espalda y bíceps.', 'Espalda, bíceps', 'Difícil', 303),
+
+('e004', 'Plancha', 'Ejercicio de estabilidad que trabaja el core.', 'Core', 'Fácil', 404),
+
+('e005', 'Burpees', 'Ejercicio de cuerpo completo que mejora la resistencia.', 'Cuerpo completo', 'Alta', 505);
+
+SELECT * FROM EJERCICIOS;
+ 
+CREATE TABLE IF NOT EXISTS RUTINAS (
+
+idRUTINAS VARCHAR(50) NOT NULL,
+
+nombre VARCHAR(100) NOT NULL,
+
+descripcion VARCHAR(500) NOT NULL,
+
+EJERCICIOS_idEJERCICIOS VARCHAR(100) NOT NULL,
+
+PRIMARY KEY (idRUTINAS),
+
+FOREIGN KEY (EJERCICIOS_idEJERCICIOS)
+
+REFERENCES EJERCICIOS (idEJERCICIOS)
+
+ON UPDATE NO ACTION);
+
+INSERT INTO RUTINAS (idRUTINAS, nombre, descripcion, EJERCICIOS_idEJERCICIOS) 
+
+VALUES 
+
+('r001', 'Rutina Básica', 'Rutina para principiantes con ejercicios básicos.', 'e001'),
+
+('r002', 'Rutina de Fuerza', 'Rutina enfocada en el desarrollo de fuerza muscular.', 'e002'),
+
+('r003', 'Rutina de Resistencia', 'Rutina para mejorar la resistencia con ejercicios intensos.', 'e003'),
+
+('r004', 'Rutina de Core', 'Rutina centrada en fortalecer el core.', 'e004'),
+
+('r005', 'Rutina Full Body', 'Rutina de cuerpo completo para un entrenamiento integral.', 'e005');
+
+SELECT * FROM RUTINAS;
+
+CREATE TABLE IF NOT EXISTS REGISTRO_PROGRESO (
+
+idREGISTRO_PROGRESO INT NOT NULL,
+
+idusuario VARCHAR(100) NOT NULL,
+
+fecha DATE NOT NULL,
+
+peso VARCHAR(10) NOT NULL,
+
+mediciones VARCHAR(45) NOT NULL,
+
+REGISTRO_PROGRESOcol VARCHAR(45) NOT NULL,
+
+USUARIO_idUSUARIO VARCHAR(100) NOT NULL,
+
+nivel VARCHAR(45) NOT NULL,
+
+PRIMARY KEY (idREGISTRO_PROGRESO),
+
+FOREIGN KEY (USUARIO_idUSUARIO)
+
+REFERENCES USUARIO (idUSUARIO)
+
+ON UPDATE NO ACTION);
+
+INSERT INTO REGISTRO_PROGRESO (idREGISTRO_PROGRESO, idusuario, fecha, peso, mediciones, REGISTRO_PROGRESOcol, USUARIO_idUSUARIO, nivel) 
+
+VALUES 
+
+(1, 'u001', '2024-09-01', '70kg', '70cm cintura', 'Registro 1', 'u001', 'Principiante'),
+
+(2, 'u002', '2024-09-01', '65kg', '65cm cintura', 'Registro 2', 'u002', 'Intermedio'),
+
+(3, 'u003', '2024-09-02', '80kg', '80cm cintura', 'Registro 3', 'u003', 'Avanzado'),
+
+(4, 'u004', '2024-09-02', '75kg', '75cm cintura', 'Registro 4', 'u004', 'Principiante'),
+
+(5, 'u005', '2024-09-03', '85kg', '85cm cintura', 'Registro 5', 'u005', 'Intermedio');
+
+SELECT * FROM REGISTRO_PROGRESO;
+ 
