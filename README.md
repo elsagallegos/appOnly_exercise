@@ -1,5 +1,5 @@
 # appOnly_exercise
-este proyecto esta dirgido a los usuarios que quieran distintas rutinas y dietas dependiendo las necesidades 
+Este proyecto esta dirgido a los usuarios que quieran distintas rutinas y dietas dependiendo las necesidades 
 ![image](https://github.com/user-attachments/assets/d889839c-5d26-4830-8b2d-5a61067103c5)
 
 
