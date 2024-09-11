@@ -69,10 +69,15 @@ Aunque existe mucha información sobre la importancia de la actividad física y 
  
 # ***Identificación del Problema:***
 A pesar del acceso a información y herramientas tecnológicas, las personas enfrentan varios desafíos al intentar mejorar su salud física y nutricional:
+
 •	Falta de Personalización: Muchas aplicaciones de fitness y dieta ofrecen planes genéricos que no consideran las necesidades y limitaciones individuales, lo que puede llevar a la frustración y el abandono del plan.
+
 •	Desmotivación: La falta de seguimiento personalizado y de apoyo constante puede hacer que los usuarios pierdan interés y no mantengan sus rutinas a largo plazo.
+
 •	Incompatibilidad entre Dieta y Ejercicio: Las personas a menudo luchan por encontrar un equilibrio entre su régimen de ejercicios y su dieta, lo que puede afectar negativamente su progreso.
+
 •	Tiempo Limitado: Las agendas ocupadas dificultan la planificación y ejecución de rutinas de ejercicio y dietas saludables.
+
 •	Accesibilidad: No todos tienen acceso a entrenadores personales o nutricionistas, lo que limita la posibilidad de obtener orientación profesional.
 
  
