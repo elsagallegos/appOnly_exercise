@@ -102,6 +102,7 @@ valoracion_rutina VARCHAR(500) NOT NULL,
 PRIMARY KEY (idVALORACION));
 
 ![VALORACION](https://github.com/user-attachments/assets/a46cc834-1597-427f-8c06-d0ba2a6fa7c7)
+
  
 CREATE TABLE IF NOT EXISTS ALIMENTACION (
 
@@ -121,20 +122,8 @@ macronutrientes VARCHAR(45) NOT NULL,
 
 PRIMARY KEY (idALIMENTACION));
 
-INSERT INTO ALIMENTACION (idALIMENTACION, idusuario, fecha, comida, descripcion, calorias, macronutrientes) 
-VALUES 
+![ALIMENTACION](https://github.com/user-attachments/assets/b9a693e6-ebf9-49e6-b986-d64bca5f3292)
 
-('a001', 'juanperez', '2024-09-01', 'Desayuno', 'Avena con frutas', '350', '50g Carbs, 10g Protein'),
-
-('a002', 'marialopez', '2024-09-01', 'Almuerzo', 'Ensalada de pollo', '450', '30g Carbs, 40g Protein'),
-
-('a003', 'pedrogarcia', '2024-09-02', 'Cena', 'Salmón a la parrilla', '500', '0g Carbs, 35g Protein'),
-
-('a004', 'anagonzalez', '2024-09-02', 'Snack', 'Yogur griego', '150', '20g Carbs, 10g Protein'),
-
-('a005', 'luismartinez', '2024-09-03', 'Desayuno', 'Smoothie verde', '300', '40g Carbs, 15g Protein');
-
-SELECT * FROM ALIMENTACION;
 
 CREATE TABLE IF NOT EXISTS USUARIO (
 
@@ -160,20 +149,8 @@ REFERENCES VALORACION (idVALORACION)
 
 ON UPDATE NO ACTION);
 
-INSERT INTO USUARIO (idUSUARIO, nombre, apellido, email, contraseña, VALORACION_idVALORACION, ALIMENTACION_idALIMENTACION) 
-VALUES 
+![USUARIO](https://github.com/user-attachments/assets/6315dc46-35b7-45fb-b6ec-187f424f936f)
 
-('I1', 'sol', 'Pérez', 'sol.perez@example.com', 'contraseña123', 30, 'a001'),
-
-('I2', 'luna', 'López', 'luna.lopez@example.com', 'contraseña456', 62, 'a002'),
-
-('I3', 'marco', 'García', 'marco.garcia@example.com', 'contraseña789', 93, 'a003'),
-
-('I4', 'hana', 'González', 'hana.gonzalez@example.com', 'contraseña012', 54, 'a004'),
-
-('I5', 'Luisa', 'Martínez', 'luisa.martinez@example.com', 'contraseña345', 85, 'a005');
-
-SELECT * FROM USUARIO;
  
 CREATE TABLE IF NOT EXISTS EJERCICIOS (
 
@@ -197,20 +174,7 @@ REFERENCES VALORACION (idVALORACION)
 
 ON UPDATE NO ACTION);
 
-INSERT INTO EJERCICIOS (idEJERCICIOS, nombre, descripcion, musculos_trabajados, dificultad, VALORACION_idVALORACION) 
-VALUES 
-
-('e001', 'Flexiones', 'Ejercicio de empuje que trabaja el pecho y tríceps.', 'Pecho, tríceps', 'Fácil', 30),
-
-('e002', 'Sentadillas', 'Ejercicio para fortalecer las piernas y glúteos.', 'Piernas, glúteos', 'Moderada', 62),
-
-('e003', 'Dominadas', 'Ejercicio para trabajar la espalda y bíceps.', 'Espalda, bíceps', 'Difícil', 93),
-
-('e004', 'Plancha', 'Ejercicio de estabilidad que trabaja el core.', 'Core', 'Fácil', 54),
-
-('e005', 'Burpees', 'Ejercicio de cuerpo completo que mejora la resistencia.', 'Cuerpo completo', 'Alta', 85);
-
-SELECT * FROM EJERCICIOS;
+![EJERCICIOS](https://github.com/user-attachments/assets/881761b8-8b5a-4f96-8840-84ad7b1bee10)
 
  
 CREATE TABLE IF NOT EXISTS RUTINAS (
@@ -231,20 +195,8 @@ REFERENCES EJERCICIOS (idEJERCICIOS)
 
 ON UPDATE NO ACTION);
 
-INSERT INTO RUTINAS (idRUTINAS, nombre, descripcion, EJERCICIOS_idEJERCICIOS) 
-VALUES 
+![RUTINAS](https://github.com/user-attachments/assets/a8878f88-0c33-474c-ba73-030fe087b8f7)
 
-('r001', 'Rutina Básica', 'Rutina para principiantes con ejercicios básicos.', 'e001'),
-
-('r002', 'Rutina de Fuerza', 'Rutina enfocada en el desarrollo de fuerza muscular.', 'e002'),
-
-('r003', 'Rutina de Resistencia', 'Rutina para mejorar la resistencia con ejercicios intensos.', 'e003'),
-
-('r004', 'Rutina de Core', 'Rutina centrada en fortalecer el core.', 'e004'),
-
-('r005', 'Rutina Full Body', 'Rutina de cuerpo completo para un entrenamiento integral.', 'e005');
-
-SELECT * FROM RUTINAS;
 
 CREATE TABLE IF NOT EXISTS REGISTRO_PROGRESO (
 
@@ -272,20 +224,8 @@ REFERENCES USUARIO (idUSUARIO)
 
 ON UPDATE NO ACTION);
 
-INSERT INTO REGISTRO_PROGRESO (idREGISTRO_PROGRESO, idusuario, fecha, peso, mediciones, REGISTRO_PROGRESOcol, USUARIO_idUSUARIO, nivel) 
-VALUES 
+![REGITRO_PROGRESO](https://github.com/user-attachments/assets/6d2f7484-2363-4da3-aeca-fc0118e039e1)
 
-(1, 'u001', '2024-09-01', '70kg', '70cm cintura', 'Registro 1', 'I1', 'Principiante'),
-
-(2, 'u002', '2024-09-01', '65kg', '65cm cintura', 'Registro 2', 'I2', 'Intermedio'),
-
-(3, 'u003', '2024-09-02', '80kg', '80cm cintura', 'Registro 3', 'I3', 'Avanzado'),
-
-(4, 'u004', '2024-09-02', '75kg', '75cm cintura', 'Registro 4', 'I4', 'Principiante'),
-
-(5, 'u005', '2024-09-03', '85kg', '85cm cintura', 'Registro 5', 'I5', 'Intermedio');
-
-SELECT * FROM REGISTRO_PROGRESO;
 
  use appexcercices;
  
