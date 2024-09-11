@@ -88,18 +88,23 @@ https://github.com/AdrianaCifuentes/AdrianaCifuentes/blob/main/Script
 
 
 /*Seleccionar los nombres y apellidos de los usuarios que han registrado su progreso con un peso mayor a 80kg*/
+
 ![image](https://github.com/user-attachments/assets/d4d9191b-5b25-4043-b5f4-8a82cc66d92e)
 
 /*Mostrar las rutinas asociadas con ejercicios que tienen una dificultad clasificada como 'Alta'*/
+
 ![image](https://github.com/user-attachments/assets/483e039a-42cc-4bf5-90e2-cd206587deb1)
 
 /*Seleccionar las comidas registradas el día 2 de septiembre de 2024*/
+
 ![image](https://github.com/user-attachments/assets/5e42d7b3-688d-4583-8539-b182c1f57d24)
 
 /*Obtener los nombres de los ejercicios que trabajan los músculos del 'core'*/
+
 ![image](https://github.com/user-attachments/assets/f218197b-59ca-43c7-b826-1dc4c6550aa0)
 
 /*Seleccionar los registros de progreso que corresponden a usuarios con nivel 'Avanzado'*/
+
 ![image](https://github.com/user-attachments/assets/2fa6ca5c-3f84-45ec-a298-54c6e8c167ee)
 
 
