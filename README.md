@@ -114,3 +114,4 @@ https://github.com/AdrianaCifuentes/AdrianaCifuentes/blob/main/Script
 ![image](https://github.com/user-attachments/assets/2fa6ca5c-3f84-45ec-a298-54c6e8c167ee)
 
 
+https://github.com/AdrianaCifuentes/AdrianaCifuentes/blob/main/SELECTS
