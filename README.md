@@ -101,20 +101,7 @@ valoracion_rutina VARCHAR(500) NOT NULL,
 
 PRIMARY KEY (idVALORACION));
 
-INSERT INTO VALORACION (idVALORACION, idusuario, id_ejercicios, comentarios, valoracion_rutina) 
-VALUES 
-
-(30, 'juanperez', 'e001', 'Excelente rutina, bien explicada.', 'La rutina es completa y cubre todos los aspectos importantes.'),
-
-(62, 'marialopez', 'e002', 'Un poco complicada, pero efectiva.', 'La rutina es desafiante y ayuda a mejorar rápidamente.'),
-
-(93, 'pedrogarcia', 'e003', 'Muy fácil de seguir.', 'La rutina es simple y adecuada para principiantes.'),
-
-(54, 'anagonzalez', 'e004', 'Me gusta la variedad de ejercicios.', 'La rutina mantiene el interés con diferentes tipos de ejercicios.'),
-
-(85, 'luismartinez', 'e005', 'Faltan algunas explicaciones.', 'La rutina es buena, pero necesita instrucciones más claras en ciertos ejercicios.');
-
-SELECT * FROM valoracion;
+![VALORACION](https://github.com/user-attachments/assets/a46cc834-1597-427f-8c06-d0ba2a6fa7c7)
  
 CREATE TABLE IF NOT EXISTS ALIMENTACION (
 
