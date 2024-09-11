@@ -83,218 +83,23 @@ A pesar del acceso a información y herramientas tecnológicas, las personas enf
 
 
 # ***REGISTRO DE PROBLEMA***
-create database appexcercices;
+A pesar de que appOnly_exercise está diseñada para ofrecer un enfoque integral hacia la salud y el bienestar, los usuarios enfrentan varios desafíos que impiden maximizar su efectividad. Uno de los problemas más significativos es la falta de personalización adecuada, ya que muchos planes ofrecidos son genéricos y no consideran las necesidades individuales, lo que lleva a la frustración y posible abandono del programa. Además, la desmotivación es un problema recurrente debido a la falta de seguimiento y apoyo constante, lo que resulta en una disminución del compromiso a largo plazo. La incompatibilidad entre dieta y ejercicio es otro obstáculo, ya que los usuarios a menudo luchan para equilibrar ambos aspectos, afectando negativamente su progreso. Las limitaciones de tiempo también juegan un papel crucial, ya que muchas personas tienen dificultades para ajustar sus agendas ocupadas para incluir rutinas de ejercicio y dietas saludables. Finalmente, la falta de acceso a entrenadores personales y nutricionistas limita la posibilidad de obtener una orientación profesional efectiva, lo que podría ayudar a los usuarios a superar estos desafíos y lograr sus objetivos de salud.
+https://github.com/AdrianaCifuentes/AdrianaCifuentes/blob/main/Script
 
-use appexcercices;
-
-CREATE TABLE IF NOT EXISTS VALORACION (
-
-idVALORACION INT NOT NULL,
-
-idusuario VARCHAR(100) NOT NULL,
-
-id_ejercicios VARCHAR(45) NOT NULL,
-
-comentarios VARCHAR(45) NOT NULL,
-
-valoracion_rutina VARCHAR(500) NOT NULL,
-
-PRIMARY KEY (idVALORACION));
-
-![VALORACION](https://github.com/user-attachments/assets/a46cc834-1597-427f-8c06-d0ba2a6fa7c7)
-
- 
-CREATE TABLE IF NOT EXISTS ALIMENTACION (
-
-idALIMENTACION VARCHAR(100) NOT NULL,
-
-idusuario VARCHAR(100) NOT NULL,
-
-fecha DATE NOT NULL,
-
-comida VARCHAR(45) NOT NULL,
-
-descripcion VARCHAR(45) NOT NULL,
-
-calorias VARCHAR(45) NOT NULL,
-
-macronutrientes VARCHAR(45) NOT NULL,
-
-PRIMARY KEY (idALIMENTACION));
-
-![ALIMENTACION](https://github.com/user-attachments/assets/b9a693e6-ebf9-49e6-b986-d64bca5f3292)
-
-
-CREATE TABLE IF NOT EXISTS USUARIO (
-
-idUSUARIO VARCHAR(100) NOT NULL,
-
-nombre VARCHAR(100) NOT NULL,
-
-apellido VARCHAR(100) NOT NULL,
-
-email VARCHAR(45) NOT NULL,
-
-contraseña VARCHAR(45) NOT NULL,
-
-VALORACION_idVALORACION INT NOT NULL,
-
-ALIMENTACION_idALIMENTACION VARCHAR(100) NOT NULL,
-
-PRIMARY KEY (idUSUARIO),
-
-FOREIGN KEY (VALORACION_idVALORACION)
-
-REFERENCES VALORACION (idVALORACION)
-
-ON UPDATE NO ACTION);
-
-![USUARIO](https://github.com/user-attachments/assets/6315dc46-35b7-45fb-b6ec-187f424f936f)
-
- 
-CREATE TABLE IF NOT EXISTS EJERCICIOS (
-
-idEJERCICIOS VARCHAR(100) NOT NULL,
-
-nombre VARCHAR(45) NOT NULL,
-
-descripcion VARCHAR(500) NOT NULL,
-
-musculos_trabajados VARCHAR(45) NOT NULL,
-
-dificultad VARCHAR(45) NOT NULL,
-
-VALORACION_idVALORACION INT NOT NULL,
-
-PRIMARY KEY (idEJERCICIOS),
-
-FOREIGN KEY (VALORACION_idVALORACION)
-
-REFERENCES VALORACION (idVALORACION)
-
-ON UPDATE NO ACTION);
-
-![EJERCICIOS](https://github.com/user-attachments/assets/881761b8-8b5a-4f96-8840-84ad7b1bee10)
-
- 
-CREATE TABLE IF NOT EXISTS RUTINAS (
-
-idRUTINAS VARCHAR(50) NOT NULL,
-
-nombre VARCHAR(100) NOT NULL,
-
-descripcion VARCHAR(500) NOT NULL,
-
-EJERCICIOS_idEJERCICIOS VARCHAR(100) NOT NULL,
-
-PRIMARY KEY (idRUTINAS),
-
-FOREIGN KEY (EJERCICIOS_idEJERCICIOS)
-
-REFERENCES EJERCICIOS (idEJERCICIOS)
-
-ON UPDATE NO ACTION);
-
-![RUTINAS](https://github.com/user-attachments/assets/a8878f88-0c33-474c-ba73-030fe087b8f7)
-
-
-CREATE TABLE IF NOT EXISTS REGISTRO_PROGRESO (
-
-idREGISTRO_PROGRESO INT NOT NULL,
-
-idusuario VARCHAR(100) NOT NULL,
-
-fecha DATE NOT NULL,
-
-peso VARCHAR(10) NOT NULL,
-
-mediciones VARCHAR(45) NOT NULL,
-
-REGISTRO_PROGRESOcol VARCHAR(45) NOT NULL,
-
-USUARIO_idUSUARIO VARCHAR(100) NOT NULL,
-
-nivel VARCHAR(45) NOT NULL,
-
-PRIMARY KEY (idREGISTRO_PROGRESO),
-
-FOREIGN KEY (USUARIO_idUSUARIO)
-
-REFERENCES USUARIO (idUSUARIO)
-
-ON UPDATE NO ACTION);
-
-![REGITRO_PROGRESO](https://github.com/user-attachments/assets/6d2f7484-2363-4da3-aeca-fc0118e039e1)
-
-
- use appexcercices;
- 
-/*Obtener los nombres y apellidos de los usuarios que han realizado valoraciones con comentarios que contienen la palabra "rutina"*/
-
-SELECT nombre, apellido 
-
-FROM USUARIO, VALORACION 
-
-WHERE USUARIO.VALORACION_idVALORACION = VALORACION.idVALORACION 
-
-AND VALORACION.comentarios LIKE '%rutina%';
- 
-/*Mostrar todas las rutinas que incluyen ejercicios que trabajan los músculos del "core"*/
-
-SELECT nombre, descripcion 
-
-FROM RUTINAS, EJERCICIOS 
-
-WHERE RUTINAS.EJERCICIOS_idEJERCICIOS = EJERCICIOS.idEJERCICIOS 
-
-AND EJERCICIOS.musculos_trabajados = 'Core';
-
- 
-use appexcercices;
 
 /*Seleccionar los nombres y apellidos de los usuarios que han registrado su progreso con un peso mayor a 80kg*/
-
-SELECT nombre, apellido 
-
-FROM USUARIO, REGISTRO_PROGRESO 
-
-WHERE USUARIO.idUSUARIO = REGISTRO_PROGRESO.USUARIO_idUSUARIO 
-
-AND REGISTRO_PROGRESO.peso > '80kg';
-
+![image](https://github.com/user-attachments/assets/d4d9191b-5b25-4043-b5f4-8a82cc66d92e)
 
 /*Mostrar las rutinas asociadas con ejercicios que tienen una dificultad clasificada como 'Alta'*/
+![image](https://github.com/user-attachments/assets/483e039a-42cc-4bf5-90e2-cd206587deb1)
 
-SELECT RUTINAS.nombre, RUTINAS.descripcion 
-
-FROM RUTINAS, EJERCICIOS 
-
-WHERE RUTINAS.EJERCICIOS_idEJERCICIOS = EJERCICIOS.idEJERCICIOS 
-
-AND EJERCICIOS.dificultad = 'Alta';
-
- 
 /*Seleccionar las comidas registradas el día 2 de septiembre de 2024*/
+![image](https://github.com/user-attachments/assets/5e42d7b3-688d-4583-8539-b182c1f57d24)
 
-SELECT comida, descripcion, fecha 
-
-FROM ALIMENTACION 
-
-WHERE fecha = '2024-09-02';
-
- 
 /*Obtener los nombres de los ejercicios que trabajan los músculos del 'core'*/
+![image](https://github.com/user-attachments/assets/f218197b-59ca-43c7-b826-1dc4c6550aa0)
 
-SELECT nombre, descripcion 
-
-FROM EJERCICIOS 
-
-WHERE musculos_trabajados = 'Core';
- 
 /*Seleccionar los registros de progreso que corresponden a usuarios con nivel 'Avanzado'*/
+![image](https://github.com/user-attachments/assets/2fa6ca5c-3f84-45ec-a298-54c6e8c167ee)
 
-SELECT idusuario, fecha, peso, mediciones 
 
-FROM REGISTRO_PROGRESO 
-
-WHERE nivel = 'Avanzado';
