@@ -35,11 +35,11 @@ Bienvenido a appOnly_exercise, la aplicación definitiva para cambiar tu estilo 
 *Subir escaleras en el trabajo o en casa (si es posible) (15min).
 
 # ***BENEFICIOS DE CADA RUTINA***.
-*AREOBICOS: El ejercicio aeróbico fortalece el corazón y promueve niveles de colesterol saludables. 
+*AREOBICOS*: El ejercicio aeróbico fortalece el corazón y promueve niveles de colesterol saludables. 
 
-*FREXIBILIDAD: Mejora el rendimiento físico y reduce el riesgo de sufrir lesiones. Reduce molestias articulares y mejora la postura. 
+*FREXIBILIDAD*: Mejora el rendimiento físico y reduce el riesgo de sufrir lesiones. Reduce molestias articulares y mejora la postura. 
 
-*FUERZA O RESISTENCIA:el entrenamiento de fuerza gana por goleada al de resistencia.
+*FUERZA O RESISTENCIA*:el entrenamiento de fuerza gana por goleada al de resistencia.
 
 ![image](https://github.com/elsagallegos/appOnly_exercise/assets/169268131/438d288e-703a-4e71-9c73-bf6554d8ae8a)
 
@@ -84,7 +84,7 @@ A pesar del acceso a información y herramientas tecnológicas, las personas enf
 
 
 # ***VALORACIÓN***
-*El usuario puede dejar su respectiva opinion de la aplicacion.
+*El usuario puede dejar su respectiva opinion de la aplicacion.*
 
 
 # ***REGISTRO DE PROBLEMA***
