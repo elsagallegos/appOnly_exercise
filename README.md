@@ -116,8 +116,8 @@ A pesar de que appOnly_exercise está diseñada para ofrecer un enfoque integral
 
 [script2](https://github.com/AdrianaCifuentes/AdrianaCifuentes/blob/main/SELECTS)
 
-----------------------------------------------------------------
+---------------------------------------------------------------------------
 
-INTEGRANTES:
+***INTEGRANTES:***
 
-BAQUE, CIFUENTES, GALLEGOS, OCHOA, VARGAS JIMENEZ
+BAQUE NAYELI, CIFUENTES ADRIANA, GALLEGOS ELSA, OCHOA SAMANTHA, VARGAS JIMÉNEZ MARÍA.
