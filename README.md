@@ -90,7 +90,7 @@ A pesar del acceso a información y herramientas tecnológicas, las personas enf
 # ***REGISTRO DE PROBLEMA***
 A pesar de que appOnly_exercise está diseñada para ofrecer un enfoque integral hacia la salud y el bienestar, los usuarios enfrentan varios desafíos que impiden maximizar su efectividad. Uno de los problemas más significativos es la falta de personalización adecuada, ya que muchos planes ofrecidos son genéricos y no consideran las necesidades individuales, lo que lleva a la frustración y posible abandono del programa. Además, la desmotivación es un problema recurrente debido a la falta de seguimiento y apoyo constante, lo que resulta en una disminución del compromiso a largo plazo. La incompatibilidad entre dieta y ejercicio es otro obstáculo, ya que los usuarios a menudo luchan para equilibrar ambos aspectos, afectando negativamente su progreso. Las limitaciones de tiempo también juegan un papel crucial, ya que muchas personas tienen dificultades para ajustar sus agendas ocupadas para incluir rutinas de ejercicio y dietas saludables. Finalmente, la falta de acceso a entrenadores personales y nutricionistas limita la posibilidad de obtener una orientación profesional efectiva, lo que podría ayudar a los usuarios a superar estos desafíos y lograr sus objetivos de salud.
 
-https://github.com/AdrianaCifuentes/AdrianaCifuentes/blob/main/Script
+[script1](https://github.com/AdrianaCifuentes/AdrianaCifuentes/blob/main/Script)
 
 
 /*Seleccionar los nombres y apellidos de los usuarios que han registrado su progreso con un peso mayor a 80kg*/
@@ -114,4 +114,4 @@ https://github.com/AdrianaCifuentes/AdrianaCifuentes/blob/main/Script
 ![image](https://github.com/user-attachments/assets/2fa6ca5c-3f84-45ec-a298-54c6e8c167ee)
 
 
-https://github.com/AdrianaCifuentes/AdrianaCifuentes/blob/main/SELECTS
+[script2](https://github.com/AdrianaCifuentes/AdrianaCifuentes/blob/main/SELECTS)
