@@ -8,46 +8,68 @@ Bienvenido a appOnly_exercise, la aplicación definitiva para cambiar tu estilo 
 
 # ***RUTINAS Y EJERCICIOS***
 **Rutina de aeróbico**
-*Caminar o excursionismo(15min).
-*Trotar o correr(15min).
-*Montar en bicicleta(15min).
-*Nadar(15min).
-*Remar(15min).
-*Patinar en línea(15min).
-*Esquí a campo traviesa(15min).
-*Ejercitarse en una máquina escaladora o elíptica(15min).
+* Caminar o excursionismo(15min).
+
+* Trotar o correr(15min).
+
+* Montar en bicicleta(15min).
+
+* Nadar(15min).
+
+* Remar(15min).
+
+* Patinar en línea(15min).
+
+* Esquí a campo traviesa(15min)
+
+* Ejercitarse en una máquina escaladora o elíptica(15min).
+  
 
 **Rutina de flexibilidad**
-*Sentadilla (squat) (15min).
-*2 Contracción de biceps (curl) (15min).
-*3 Dominadas (pull up) (15min).
-*4 Zancadas (lunge) (15min).
-*5 Planchas (push-up) (15min).
-*6 Peso muerto (dead weight) (15min).
-*7 Remo (rowing) (15min).
-*8 Extensión hombros y pectoral (pull over) (15min).
+* Sentadilla (squat) (15min).
+
+* Contracción de biceps (curl) (15min).
+
+* Dominadas (pull up) (15min).
+
+* Zancadas (lunge) (15min).
+
+* Planchas (push-up) (15min).
+
+* Peso muerto (dead weight) (15min).
+
+* Remo (rowing) (15min).
+
+* Extensión hombros y pectoral (pull over) (15min).
 
 **Rutina de fuerza o resistencia**
-*Caminar con rapidez (15min).
-*Correr/jogging (15min).
-*Bailar(15min).
-*Andar en bicicleta(15min).
-*Subir escaleras en el trabajo o en casa (si es posible) (15min).
+* Caminar con rapidez (15min).
+
+* Correr/jogging (15min).
+
+* Bailar(15min).
+
+* Andar en bicicleta(15min).
+
+* Subir escaleras en el trabajo o en casa (si es posible) (15min).
 
 # ***BENEFICIOS DE CADA RUTINA***.
-*AREOBICOS*: El ejercicio aeróbico fortalece el corazón y promueve niveles de colesterol saludables. 
+* ***AREOBICOS:*** El ejercicio aeróbico fortalece el corazón y promueve niveles de colesterol saludables. 
 
-*FREXIBILIDAD*: Mejora el rendimiento físico y reduce el riesgo de sufrir lesiones. Reduce molestias articulares y mejora la postura. 
+* ***FREXIBILIDAD:*** Mejora el rendimiento físico y reduce el riesgo de sufrir lesiones. Reduce molestias articulares y mejora la postura. 
 
-*FUERZA O RESISTENCIA*:el entrenamiento de fuerza gana por goleada al de resistencia.
+* ***FUERZA O RESISTENCIA:*** el entrenamiento de fuerza gana por goleada al de resistencia.
 
 ![image](https://github.com/elsagallegos/appOnly_exercise/assets/169268131/438d288e-703a-4e71-9c73-bf6554d8ae8a)
 
 
 # **Alimentos:**
 ***Carbohidratos***: Son la principal fuente de energía del cuerpo. (alimentos como pan, arroz, pasta, frutas y verduras)
+
 Proteínas: Son esenciales para la reparación y el crecimiento de los tejidos. (carne, pescado, huevos, legumbres, nueces y productos lácteos)
+
 Grasas: Son necesarias para la absorción de ciertas vitaminas y para la función celular. Se dividen en grasas saturadas (menos saludables) y grasas insaturadas (más saludables). Se encuentran (aceites, mantequillas, aguacates, nueces y pescados grasos)
+
 ***Minerales***: Son cruciales para la salud y el bienestar. Ejemplos incluyen el calcio (huesos y dientes), el hierro (transporte de oxígeno en la sangre), y el potasio (función muscular y nerviosa).
 La fibra: es importante para la salud digestiva y la prevención de enfermedades crónicas. Se encuentra en frutas, verduras, legumbres y granos integrales.
 El agua: es vital para todas las funciones corporales. Se recomienda consumir al menos 8 vasos de agua al día, aunque las necesidades pueden variar según la actividad física y el clima.
@@ -55,13 +77,16 @@ Una dieta equilibrada: incluye una variedad de alimentos de todos los grupos ali
 
 # ***REGISTRO DE PROGRESO***
 ***Evaluaciones Periódicas***
-*Medir y registrar tu progreso cada 4-6 semanas.
-*Comparar medidas corporales, peso y fotos del progreso.
-*Evaluar tu desempeño en los ejercicios (más repeticiones, mayor peso, mayor resistencia).
-**Objetivos y Logros:**
-*Establecer objetivos a corto y largo plazo.
-*Celebrar logros alcanzados y establecer nuevos objetivos.
+* Medir y registrar tu progreso cada 4-6 semanas.
 
+* Comparar medidas corporales, peso y fotos del progreso.
+
+* Evaluar tu desempeño en los ejercicios (más repeticiones, mayor peso, mayor resistencia).
+
+**Objetivos y Logros:**
+* Establecer objetivos a corto y largo plazo.
+
+* Celebrar logros alcanzados y establecer nuevos objetivos.
 
 
 # ***CONTEXTO DEl PROBLEMA***
@@ -84,11 +109,11 @@ A pesar del acceso a información y herramientas tecnológicas, las personas enf
 
 
 # ***VALORACIÓN***
-*El usuario puede dejar su respectiva opinion de la aplicacion.*
+* El usuario puede dejar su respectiva opinion de la aplicacion.*
 
 
 # ***REGISTRO DE PROBLEMA***
-A pesar de que appOnly_exercise está diseñada para ofrecer un enfoque integral hacia la salud y el bienestar, los usuarios enfrentan varios desafíos que impiden maximizar su efectividad. Uno de los problemas más significativos es la falta de personalización adecuada, ya que muchos planes ofrecidos son genéricos y no consideran las necesidades individuales, lo que lleva a la frustración y posible abandono del programa. Además, la desmotivación es un problema recurrente debido a la falta de seguimiento y apoyo constante, lo que resulta en una disminución del compromiso a largo plazo. La incompatibilidad entre dieta y ejercicio es otro obstáculo, ya que los usuarios a menudo luchan para equilibrar ambos aspectos, afectando negativamente su progreso. Las limitaciones de tiempo también juegan un papel crucial, ya que muchas personas tienen dificultades para ajustar sus agendas ocupadas para incluir rutinas de ejercicio y dietas saludables. Finalmente, la falta de acceso a entrenadores personales y nutricionistas limita la posibilidad de obtener una orientación profesional efectiva, lo que podría ayudar a los usuarios a superar estos desafíos y lograr sus objetivos de salud.
+A pesar de que appOnly_exercise está diseñada para ofrecer un enfoque integral hacia la salud y el bienestar, los usuarios enfrentan varios desafíos que impiden maximizar su efectividad. Uno de los problemas más significativos es la incompatibilidad entre dieta y ejercicio, ya que los usuarios a menudo luchan para equilibrar ambos aspectos, afectando negativamente su progreso. Las limitaciones de tiempo también juegan un papel crucial, ya que muchas personas tienen dificultades para ajustar sus agendas ocupadas para incluir rutinas de ejercicio y dietas saludables. Finalmente, la falta de acceso a entrenadores personales y nutricionistas limita la posibilidad de obtener una orientación profesional efectiva, lo que podría ayudar a los usuarios a superar estos desafíos y lograr sus objetivos de salud.
 
 [script1](https://github.com/AdrianaCifuentes/AdrianaCifuentes/blob/main/Script).
 
