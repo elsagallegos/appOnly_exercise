@@ -146,3 +146,6 @@ A pesar de que appOnly_exercise está diseñada para ofrecer un enfoque integral
 ***INTEGRANTES:***
 
 BAQUE NAYELI, CIFUENTES ADRIANA, GALLEGOS ELSA, OCHOA SAMANTHA, VARGAS MARÍA.
+
+![image](https://github.com/user-attachments/assets/72771919-a38b-427d-a775-7cb3a683600f)
+![image](https://github.com/user-attachments/assets/56cef1dc-376a-4747-bb23-e34331ae3712)
