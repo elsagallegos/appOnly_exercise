@@ -47,7 +47,7 @@ Bienvenido a appOnly_exercise, la aplicación definitiva para cambiar tu estilo 
 
 * Correr/jogging (15min).
 
-* Bailar(15min).
+* Bailar(15min). 
 
 * Andar en bicicleta(15min).
 
@@ -145,4 +145,4 @@ A pesar de que appOnly_exercise está diseñada para ofrecer un enfoque integral
 
 ***INTEGRANTES:***
 
-BAQUE NAYELI, CIFUENTES ADRIANA, GALLEGOS ELSA, OCHOA SAMANTHA, VARGAS JIMÉNEZ MARÍA.
+BAQUE NAYELI, CIFUENTES ADRIANA, GALLEGOS ELSA, OCHOA SAMANTHA, VARGAS MARÍA.
