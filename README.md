@@ -70,7 +70,7 @@ Proteínas: Son esenciales para la reparación y el crecimiento de los tejidos. 
 
 Grasas: Son necesarias para la absorción de ciertas vitaminas y para la función celular. Se dividen en grasas saturadas (menos saludables) y grasas insaturadas (más saludables). Se encuentran (aceites, mantequillas, aguacates, nueces y pescados grasos)
 
-***Minerales***: Son cruciales para la salud y el bienestar. Ejemplos incluyen el calcio (huesos y dientes), el hierro (transporte de oxígeno en la sangre), y el potasio (función muscular y nerviosa).
+***Minerales***:  Son cruciales para la salud y el bienestar. Ejemplos incluyen el calcio (huesos y dientes), el hierro (transporte de oxígeno en la sangre), y el potasio (función muscular y nerviosa).
 La fibra: es importante para la salud digestiva y la prevención de enfermedades crónicas. Se encuentra en frutas, verduras, legumbres y granos integrales.
 El agua: es vital para todas las funciones corporales. Se recomienda consumir al menos 8 vasos de agua al día, aunque las necesidades pueden variar según la actividad física y el clima.
 Una dieta equilibrada: incluye una variedad de alimentos de todos los grupos alimenticios en las proporciones adecuadas.
