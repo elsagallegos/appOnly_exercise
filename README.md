@@ -141,7 +141,7 @@ A pesar de que appOnly_exercise está diseñada para ofrecer un enfoque integral
 
 [script2](https://github.com/AdrianaCifuentes/AdrianaCifuentes/blob/main/SELECTS)
 
----------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
 
 ***INTEGRANTES:***
 
