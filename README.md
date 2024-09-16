@@ -1,6 +1,6 @@
 # appOnly_exercise 
 Este proyecto esta dirgido a los usuarios que quieran distintas rutinas y dietas dependiendo las necesidades 
-![image](https://github.com/user-attachments/assets/d889839c-5d26-4830-8b2d-5a61067103c5).
+![gato](https://github.com/user-attachments/assets/d889839c-5d26-4830-8b2d-5a61067103c5).
 
 
 # INTRODUCCION
@@ -145,7 +145,7 @@ A pesar de que appOnly_exercise está diseñada para ofrecer un enfoque integral
 
 ***INTEGRANTES:***
 
-BAQUE NAYELI, CIFUENTES ADRIANA, GALLEGOS ELSA, OCHOA SAMANTHA, VARGAS MARÍA.
+BAQUE NAYELI, CIFUENTES ADRIANA, GALLEGOS ELSA, OCHOA SAMANTHA, VARGAS MARÍA J.
 
 ![image](https://github.com/user-attachments/assets/72771919-a38b-427d-a775-7cb3a683600f)
 ![image](https://github.com/user-attachments/assets/56cef1dc-376a-4747-bb23-e34331ae3712)
