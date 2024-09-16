@@ -8,39 +8,39 @@ Bienvenido a appOnly_exercise, la aplicación definitiva para cambiar tu estilo 
 
 # ***RUTINAS Y EJERCICIOS***
 **Rutina de aeróbico**
-* Caminar o excursionismo(15min).
+* Caminar o excursionismo(15min)
 
-* Trotar o correr(15min).
+* Trotar o correr(15min)
 
-* Montar en bicicleta(15min).
+* Montar en bicicleta(15min)
 
-* Nadar(15min).
+* Nadar(15min)
 
-* Remar(15min).
+* Remar(15min)
 
-* Patinar en línea(15min).
+* Patinar en línea(15min)
 
 * Esquí a campo traviesa(15min)
 
-* Ejercitarse en una máquina escaladora o elíptica(15min).
+* Ejercitarse en una máquina escaladora o elíptica(15min)
   
 
 **Rutina de flexibilidad**
-* Sentadilla (squat) (15min).
+* Sentadilla (squat) (15min)
 
-* Contracción de biceps (curl) (15min).
+* Contracción de biceps (curl) (15min)
 
-* Dominadas (pull up) (15min).
+* Dominadas (pull up) (15min)
 
-* Zancadas (lunge) (15min).
+* Zancadas (lunge) (15min)
 
-* Planchas (push-up) (15min).
+* Planchas (push-up) (15min)
 
-* Peso muerto (dead weight) (15min).
+* Peso muerto (dead weight) (15min)
 
-* Remo (rowing) (15min).
+* Remo (rowing) (15min)
 
-* Extensión hombros y pectoral (pull over) (15min).
+* Extensión hombros y pectoral (pull over) (15min)
 
 **Rutina de fuerza o resistencia**
 * Caminar con rapidez (15min).
