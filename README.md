@@ -25,7 +25,7 @@ Bienvenido a appOnly_exercise, la aplicación definitiva para cambiar tu estilo 
 * Ejercitarse en una máquina escaladora o elíptica(15min)
   
 
-**Rutina de flexibilidad**
+**RUTINA DE FLEXIBIDAD**
 * Sentadilla (squat) (15min)
 
 * Contracción de biceps (curl) (15min)
@@ -42,7 +42,7 @@ Bienvenido a appOnly_exercise, la aplicación definitiva para cambiar tu estilo 
 
 * Extensión hombros y pectoral (pull over) (15min)
 
-**Rutina de fuerza o resistencia**
+**RUTINA DE FUERZA O RESISTENCIA**
 * Caminar con rapidez (15min).
 
 * Correr/jogging (15min).
@@ -53,7 +53,7 @@ Bienvenido a appOnly_exercise, la aplicación definitiva para cambiar tu estilo 
 
 * Subir escaleras en el trabajo o en casa (si es posible) (15min).
 
-# ***BENEFICIOS DE CADA RUTINA***.
+# **BENEFICIOS DE CADA RUTINA**
 * ***AREOBICOS:*** El ejercicio aeróbico fortalece el corazón y promueve niveles de colesterol saludables. 
 
 * ***FREXIBILIDAD:*** Mejora el rendimiento físico y reduce el riesgo de sufrir lesiones. Reduce molestias articulares y mejora la postura. 
@@ -63,7 +63,7 @@ Bienvenido a appOnly_exercise, la aplicación definitiva para cambiar tu estilo 
 ![image](https://github.com/elsagallegos/appOnly_exercise/assets/169268131/438d288e-703a-4e71-9c73-bf6554d8ae8a)
 
 
-# **Alimentos:**
+# **ALIMENTOS**
 ***Carbohidratos***: Son la principal fuente de energía del cuerpo. (alimentos como pan, arroz, pasta, frutas y verduras)
 
 Proteínas: Son esenciales para la reparación y el crecimiento de los tejidos. (carne, pescado, huevos, legumbres, nueces y productos lácteos)
@@ -75,7 +75,7 @@ La fibra: es importante para la salud digestiva y la prevención de enfermedades
 El agua: es vital para todas las funciones corporales. Se recomienda consumir al menos 8 vasos de agua al día, aunque las necesidades pueden variar según la actividad física y el clima.
 Una dieta equilibrada: incluye una variedad de alimentos de todos los grupos alimenticios en las proporciones adecuadas.
 
-# ***REGISTRO DE PROGRESO***
+# **REGISTRO DE PROGRESO**
 ***Evaluaciones Periódicas***
 * Medir y registrar tu progreso cada 4-6 semanas.
 
@@ -89,10 +89,10 @@ Una dieta equilibrada: incluye una variedad de alimentos de todos los grupos ali
 * Celebrar logros alcanzados y establecer nuevos objetivos.
 
 
-# ***CONTEXTO DEl PROBLEMA***
+# **CONTEXTO DEl PROBLEMA**
 Aunque existe mucha información sobre la importancia de la actividad física y la nutrición, muchas personas todavía tienen dificultades para mantener un programa regular de ejercicio y una dieta equilibrada. Los desafíos que enfrentan las personas incluyen falta de tiempo, pérdida de motivación, falta de conocimiento sobre cómo equilibrar el ejercicio y la nutrición, así como dificultad para acceder a recursos personales que satisfagan necesidades específicas de su cuerpo. Los desafíos que enfrentan las personas incluyen falta de tiempo, pérdida de motivación, falta de conocimiento sobre cómo equilibrar el ejercicio y la nutrición, así como dificultad para acceder a recursos personales que satisfagan necesidades específicas de su cuerpo. Su objetivo es ofrecer un plan personalizado que combine ejercicio eficaz y asequible con una dieta equilibrada y adaptada a los objetivos personales de cada persona. Su objetivo es ofrecer un plan personalizado que combine ejercicio eficaz y asequible con una dieta equilibrada y adaptada a los objetivos personales de cada persona. Al combinar ejercicio y nutrición en un solo enfoque, el proyecto tiene como objetivo promover estilos de vida más saludables y sostenibles para las personas, ayudándolas a superar las barreras hacia la felicidad. Al combinar ejercicio y nutrición en un solo enfoque, el proyecto tiene como objetivo promover estilos de vida más saludables y sostenibles para las personas, ayudándolas a superar las barreras hacia la felicidad.
  
-# ***Identificación del Problema:***
+# **IDENTIFICACIÓN DEL PROBLEMA**
 A pesar del acceso a información y herramientas tecnológicas, las personas enfrentan varios desafíos al intentar mejorar su salud física y nutricional:
 
 •	Falta de Personalización: Muchas aplicaciones de fitness y dieta ofrecen planes genéricos que no consideran las necesidades y limitaciones individuales, lo que puede llevar a la frustración y el abandono del plan.
@@ -108,11 +108,11 @@ A pesar del acceso a información y herramientas tecnológicas, las personas enf
  
 
 
-# ***VALORACIÓN***
+# **VALORACIÓN**
 * El usuario puede dejar su respectiva opinion de la aplicacion.*
 
 
-# ***REGISTRO DE PROBLEMA***
+# **REGISTRO DE PROBLEMA**
 A pesar de que appOnly_exercise está diseñada para ofrecer un enfoque integral hacia la salud y el bienestar, los usuarios enfrentan varios desafíos que impiden maximizar su efectividad. Uno de los problemas más significativos es la incompatibilidad entre dieta y ejercicio, ya que los usuarios a menudo luchan para equilibrar ambos aspectos, afectando negativamente su progreso. Las limitaciones de tiempo también juegan un papel crucial, ya que muchas personas tienen dificultades para ajustar sus agendas ocupadas para incluir rutinas de ejercicio y dietas saludables. Finalmente, la falta de acceso a entrenadores personales y nutricionistas limita la posibilidad de obtener una orientación profesional efectiva, lo que podría ayudar a los usuarios a superar estos desafíos y lograr sus objetivos de salud.
 
 [script1](https://github.com/AdrianaCifuentes/AdrianaCifuentes/blob/main/Script)
