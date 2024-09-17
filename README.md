@@ -127,14 +127,21 @@ A pesar de que appOnly_exercise está diseñada para ofrecer un enfoque integral
 /*Mostrar las rutinas asociadas con ejercicios que tienen una dificultad clasificada como 'Alta'*/
 
 ![image](https://github.com/user-attachments/assets/483e039a-42cc-4bf5-90e2-cd206587deb1)
+![image](https://github.com/user-attachments/assets/feb00695-b7e8-4031-9552-47244262a1a5)
+
+
 
 /*Seleccionar las comidas registradas el día 2 de septiembre de 2024*/
 
 ![image](https://github.com/user-attachments/assets/5e42d7b3-688d-4583-8539-b182c1f57d24)
+![image](https://github.com/user-attachments/assets/7ac34f51-7fb5-42f9-8ce5-ab0608f2f3cc)
+
 
 /*Obtener los nombres de los ejercicios que trabajan los músculos del 'core'*/
 
 ![image](https://github.com/user-attachments/assets/f218197b-59ca-43c7-b826-1dc4c6550aa0)
+![image](https://github.com/user-attachments/assets/8fcc2392-0708-4ddc-9a34-b534e22c90ed)
+
 
 /*Seleccionar los registros de progreso que corresponden a usuarios con nivel 'Avanzado'*/
 
