@@ -147,6 +147,7 @@ A pesar de que appOnly_exercise está diseñada para ofrecer un enfoque integral
 /*Seleccionar los registros de progreso que corresponden a usuarios con nivel 'Avanzado'*/
 
 ![image](https://github.com/user-attachments/assets/2fa6ca5c-3f84-45ec-a298-54c6e8c167ee)
+![image](https://github.com/user-attachments/assets/d1459523-a82e-4551-84a8-fdc0cfa4b81c)
 
 
 [script2](https://github.com/AdrianaCifuentes/AdrianaCifuentes/blob/main/SELECTS)
