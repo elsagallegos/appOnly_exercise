@@ -134,6 +134,7 @@ A pesar de que appOnly_exercise está diseñada para ofrecer un enfoque integral
 /*Seleccionar las comidas registradas el día 2 de septiembre de 2024*/
 
 ![image](https://github.com/user-attachments/assets/5e42d7b3-688d-4583-8539-b182c1f57d24)
+
 ![image](https://github.com/user-attachments/assets/7ac34f51-7fb5-42f9-8ce5-ab0608f2f3cc)
 
 
