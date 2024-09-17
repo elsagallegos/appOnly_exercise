@@ -121,6 +121,8 @@ A pesar de que appOnly_exercise está diseñada para ofrecer un enfoque integral
 /*Seleccionar los nombres y apellidos de los usuarios que han registrado su progreso con un peso mayor a 80kg*/
 
 ![image](https://github.com/user-attachments/assets/d4d9191b-5b25-4043-b5f4-8a82cc66d92e)
+![image](https://github.com/user-attachments/assets/fa385a51-bc53-4593-a7b6-10cb5be87c55)
+
 
 /*Mostrar las rutinas asociadas con ejercicios que tienen una dificultad clasificada como 'Alta'*/
 
